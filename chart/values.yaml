@@ -245,3 +245,8 @@ annotations: {}
 serviceAccount:
   # Annotations to add to the service account
   annotations: {}
+
+secret:
+  name: longhorn-crypto
+  keyvalue: longhorn-crypto
+  keyprovider: longhorn-crypto
